@@ -21,7 +21,7 @@ class AllProductsPage extends React.Component {
             <div style={{ marginLeft: 10 }}>
                 <Prompt message={params => params.pathname.includes("/products/") ? "Are you sure you want to view the details?" : true } />
                 <h1>
-                    Products List
+                    Products List - Using Redux
                 </h1>
                 <ProductsList data={ this.props.users } />
                 <p>

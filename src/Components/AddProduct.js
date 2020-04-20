@@ -27,7 +27,7 @@ class AddProduct extends React.Component {
         console.log(this.props);
         return(
             <>
-                <h1>Add product</h1>
+                <h1>Add product - Using Redux</h1>
                 <FormikAddProductForm addProduct={ this.props.actions.addProduct }/>
             </>
         );
